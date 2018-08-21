@@ -1,15 +1,14 @@
 <% include partials/header %>
 
 <div class="container">
-<h4>Search for a Movie or TV Show</h4>
-
-<form action="/results" method="GET">
-  <div class="form-group">
-    <label for="movieName"></label>
-    <input type="text" id="movieName" placeholder="Enter a word" name="search" class="form-control">
-  </div>
-    <input type="submit" class="btn btn-secondary">
-</form>
+  <h4>Search for a Movie or TV Show</h4>
+  <form action="/results" method="GET">
+    <div class="form-group">
+      <label for="movieName"></label>
+      <input type="text" id="movieName" placeholder="Enter a word" name="search" class="form-control">
+    </div>
+      <input type="submit" class="btn btn-secondary">
+  </form>
 </div>
 
 <% include partials/footer %>

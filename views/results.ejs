@@ -1,25 +1,21 @@
 <% include partials/header %>
 
 <div class="container">
-<h4>Results</h4>
-
-<p><strong>Movie/TV Show Name</strong> - Year</p>
-<ul class="list-group">
-  <% if(data.Search) { %>
-    <% data.Search.forEach(function(movie){ %>
-      <li class="list-group-item">
-        <strong><%= movie.Title %></strong> - <%= movie.Year %>
-      </li>
-  <% }) %>
-  <% } else { %>
+  <h4>Results</h4>
+  <p><strong>Movie/TV Show Name</strong> - Year</p>
+  <ul class="list-group">
+    <% if(data.Search) { %>
+      <% data.Search.forEach(function(movie){ %>
+        <li class="list-group-item">
+          <strong><%= movie.Title %></strong> - <%= movie.Year %>
+        </li>
+      <% }) %>
+    <% } else { %>
       <p>We couldn't find any movie or TV show. Try another word.</p>
-  <% } %>
-</ul>
-
-</br>
-<a href="/" class="btn btn-secondary">Search again!</a>
-
-
+    <% } %>
+  </ul>
+  </br>
+  <a href="/" class="btn btn-secondary">Search again!</a>
 </div>
 
 <% include partials/footer %>
