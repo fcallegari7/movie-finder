@@ -1,9 +1,10 @@
 {
-  "name": "movie_suggestions",
+  "name": "movie_finder",
   "version": "1.0.0",
-  "description": "Search for movies",
+  "description": "Search for movies or TV shows",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Fabio Callegari",
