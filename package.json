@@ -8,6 +8,14 @@
   },
   "author": "Fabio Callegari",
   "license": "ISC",
+  "engines": {
+  "npm": "5.6.0",
+  "node": "9.5.0"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/fcallegari7/movie-finder.git"
+  },
   "dependencies": {
     "ejs": "^2.6.1",
     "express": "^4.16.3",
